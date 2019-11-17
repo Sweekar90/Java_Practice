@@ -11,19 +11,19 @@ The goal of the task is to update the method "checkGameWinner()" in the class "G
 There are 9 boxes in the form of 3 * 3 matrix. Hence we need a 2-D array
 For a "WIN" there are 8 cases:
 
-Row Cases 
-1. a[0][0] = a[0][1] = a[0][2]
-2. a[1][0] = a[1][1] = a[1][2]
-3. a[2][0] = a[2][1] = a[2][2]
+Row Cases <br />
+1. a[0][0] = a[0][1] = a[0][2] <br />
+2. a[1][0] = a[1][1] = a[1][2] <br />
+3. a[2][0] = a[2][1] = a[2][2] <br />
 
-Column Cases
-4. a[0][0] = a[1][0] = a[2][0]
-5. a[0][1] = a[1][1] = a[2][1]
-6. a[0][2] = a[1][2] = a[2][2]
+Column Cases <br />
+4. a[0][0] = a[1][0] = a[2][0] <br />
+5. a[0][1] = a[1][1] = a[2][1] <br />
+6. a[0][2] = a[1][2] = a[2][2] <br />
 
-Diagonal Cases
-7. a[0][0] = a[1][1] = a[2][2]
-8. a[0][2] = a[1][1] = a[2][0]
+Diagonal Cases <br />
+7. a[0][0] = a[1][1] = a[2][2] <br />
+8. a[0][2] = a[1][1] = a[2][0] <br />
 
 A case of "TIE" is resulted when all the 9 boxes got filled with none of the above 8 cases being satisfied.
 
